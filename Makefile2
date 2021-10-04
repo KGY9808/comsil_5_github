@@ -1,0 +1,18 @@
+cc = gcc
+TRAGET = animal.exe
+OBJS = dog.o blackcow.o turtle.o main.o
+
+$(TRAGET) : $(OBJS)
+	$(cc) -o $(TARGET) $(OBJS)
+main.o:
+	$(cc) -o main.c
+dog.o:
+	$(cc) -c dog.c
+turtle.o:
+	$(cc) -c turtle.c
+blackcow.o:
+	$(cc) -c blackcow.c
+.PHONY: clean
+clean:
+	rm -f $(OBJS) $(TARGET)
+
