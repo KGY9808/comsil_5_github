@@ -6,7 +6,7 @@ using namespace std;
 int main(void)
 {
 	int i,x,y;
-	Array a(10),b(5);
+	Array a(20),b(10);
 	for(i=0;i<a.length();i++)
 		a[i] = i+1;
 	for(i=0;i<b.length();i++)
