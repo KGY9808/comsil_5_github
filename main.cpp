@@ -6,7 +6,11 @@ using namespace std;
 int main(void)
 {
 	int i,x,y;
+<<<<<<< HEAD
 	Array a(20),b(10);
+=======
+	Array a(15),b(5);
+>>>>>>> 461f6e6edeced69974f4a4a858f5fbb1c59cb127
 	for(i=0;i<a.length();i++)
 		a[i] = i+1;
 	for(i=0;i<b.length();i++)
